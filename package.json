@@ -13,6 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build2": "rsync -ir --delete tutorial/ /mnt/c/Users/colet/dest-wsl-rsync/tutorial/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
